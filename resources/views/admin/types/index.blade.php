@@ -16,22 +16,23 @@
             </thead>
             <tbody>
 
-                {{-- @foreach ($projects as $project)
+                @dump($types)
+                @foreach ($types as $type)
                     
                     <tr>
-                        <td>{{$project->name}}</td>
-                        <td>{{$project->argument}}</td>
+                        <td>{{$type->name}}</td>
+                        <td>{{$type->description}}</td>
                         <td>
-                            <a href="{{route('admin.projects.show', $project->id)}}" class="btn btn-outline-primary">Vedi</a>
+                            <a href="{{route('admin.types.show', $type->id)}}" class="btn btn-outline-primary">Vedi</a>
                         </td>
                     </tr>
 
-                @endforeach --}}
+                @endforeach
 
             </tbody>
         </table>
 
-        {{-- <a href="{{route('admin.projects.create')}}" class="btn btn-primary">Aggiungi un progetto</a> --}}
+        {{-- <a href="{{route('admin.types.create')}}" class="btn btn-primary">Aggiungi un progetto</a> --}}
 
     </div>
 
