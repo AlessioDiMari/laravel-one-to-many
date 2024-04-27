@@ -18,6 +18,9 @@
             Elimina
         </button>
 
+        <a href="{{route('admin.projects.index')}}" class="btn btn-primary">Ritorna alla lista progetti</a>
+
+
     </div>
 
     <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

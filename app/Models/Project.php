@@ -15,7 +15,8 @@ class Project extends Model
     protected $fillable = [
 
         "name",
-        "argument"
+        "argument",
+        "type_id"
     ];
 
     public function type(){

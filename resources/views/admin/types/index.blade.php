@@ -32,7 +32,7 @@
             </tbody>
         </table>
 
-        {{-- <a href="{{route('admin.types.create')}}" class="btn btn-primary">Aggiungi un progetto</a> --}}
+        {{-- <a href="{{route('admin.types.create')}}" class="btn btn-primary">Aggiungi una tipologia</a> --}}
 
     </div>
 
